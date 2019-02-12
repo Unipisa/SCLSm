@@ -1,0 +1,7 @@
+image:
+ - Visual Studio 2017
+# - ubuntu
+configuration:
+ - Debug
+before_build:
+ - ps: nuget restore
