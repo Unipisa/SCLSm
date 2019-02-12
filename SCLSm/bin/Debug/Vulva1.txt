@@ -1,0 +1,58 @@
+//
+//  C. elegans - vulva dev. model, single cell
+
+rules
+c1 : ( g-sem-5--wt---p6-p                           , g-sem-5--wt---p6-p | p-sem-5-p6-p                               , 1)
+c2 : ( p-sem-5-p6-p * 5 | p-let-23-act-p6-p * 5   , p-sem-5-p6-p * 4 | p-let-23-act-p6-p * 4 | p-sem-5-act-p6-p   , 1)
+c3 : ( g-let-60--wt---p6-p                          , g-let-60--wt---p6-p  | p-let-60-p6-p                            , 1)
+c4 : ( p-sem-5-act-p6-p * 5 | p-let-60-p6-p * 5   , p-sem-5-act-p6-p * 4 | p-let-60-p6-p * 4 | p-let-60-act-p6-p    , 1)
+c5 : ( p-let-60-act-p6-p * 5 | p-mpk-1-p6-p * 5   , p-let-60-act-p6-p  * 4 | p-mpk-1-p6-p * 4 | p-mpk-1-act-p6-p  , 1)
+c6 : ( p-lin-3-p6-p * 5 | p-let-23-p6-p * 5         , p-lin-3-p6-p * 4 | p-let-23-p6-p * 4  | p-let-23-act-p6-p       , 1)
+c7 : ( p-let-23-p6-p * 2 | p-dpy-23-p6-p          ,                                                               , 1)
+c8 : ( g-let-23--wt---p6-p                          , g-let-23--wt---p6-p   | p-let-23-p6-p                           , 1)
+c9 : ( p-mpk-1-act-p6-p  | x1                     ,                                                               , 1)
+c10 : ( x2 * 100                                  ,   x1                                                          , 1)
+c11 : ( x3                                        ,   x3 | x2                                                     , 1)
+c12 : ( g-mpk-1--wt---p6-p                          , g-mpk-1--wt---p6-p  | p-mpk-1-p6-p                             , 1)
+c13 : ( p-lst-p6-p * 3 | g-mpk-1--wt---p6-p         , p-lst-p6-p * 2 | g-mpk-1--wt---p6-p                              , 1)
+c14 : ( p-lst-p6-p | x4      ,                              , 1)
+c15 : (  x5 * 100      ,   x4                           , 1)
+c16 : (  x6      ,  x6 | x5                          , 1)
+c17 : (  g-lst--wt---p6-p     ,  p-lst-p6-p  | g-lst--wt---p6-p                      , 1)
+c18 : (  g-lst--wt---p6-p | p-lin-12-act-p6-p * 5    ,  p-lin-12-act-p6-p * 4  | g-lst--wt---p6-p  | p-lst-p6-p * 4   , 1)
+c19 : (  g-lst--wt---p6-p | x7   ,  g-lst--wt---p6-p   , 1)
+c20 : (  p-mpk-1-act-p6-p | x8   , x8 | x7 * 4  , 1)
+c21 : (  p-mpk-1-act-p6-p * 5 | dsl--wt---p6-p   , p-mpk-1-act-p6-p * 4 | dsl--wt---p6-p | p-dsl-p6-p * 2, 1)
+c22 : (  p-lin-12-act-p6-p * 4 | g-dpy-23--wt---p6-p , p-lin-12-act-p6-p * 3 | g-dpy-23--wt---p6-p | p-dpy-23-p6-p * 4 , 1)
+c23 : (  x9 | p-lin-12-act-p6-p , , 1)
+c24 : (  x10 * 100 , x9 , 1)
+c25 : (  x11 , x10 | x11 , 1)
+c26 : (  g-vav-1--wt---p6-p | g-mir-61--miRNA---p6-p , g-vav-1--wt---p6-p  , 1)
+c27 : (  g-vav-1--wt---p6-p  , g-vav-1--wt---p6-p | p-vav-1-p6-p , 1)
+c28 : (  p-vav-1-p6-p * 3 | p-lin-12-p6-p | x17,  p-vav-1-p6-p * 2 , 1)
+c29 : (  p-lin-12-p6-p * 5 | p-vav-1-p6-p ,  p-lin-12-p6-p * 4 , 1)
+c30 : (  g-lin-12--wt---p6-p,  p-lin-12-p6-p | g-lin-12--wt---p6-p , 1)
+c31 : (  g-lin-12--d---p6-p,  p-lin-12-p6-p * 3| g-lin-12--d---p6-p , 1)
+c32 : (  p-lin-12-p6-p | x12,  , 1)
+c33 : (  x13 * 100, x12 , 1)
+c34 : (  x14, x14 | x13 , 1)
+c35 : (  x16 | p-mpk-1-act-p6-p * 2 , x16 | p-mpk-1-act-p6-p | x17 * 4  , 1)
+c36 : (  p-lin-12-p6-p * 8 , p-lin-12-p6-p * 6 | p-lin-12-act-p6-p * 2 , 1)
+c37 : (  p-lin-12-p6-p * 6 | x15 , p-lin-12-p6-p * 5 | x15 | p-lin-12-act-p6-p * 1 , 1)
+c38 : (  x15 ,  x15 , 1)
+c39 : (  g-mir-61-p6-p | p-lin-12-act-p6-p,  g-mir-61-p6-p | g-mir-61--miRNA---p6-p , 1)
+c40 : (  p-lin-12-p6-p * 3| p-dsl-p6-7-p * 5,  p-lin-12-p6-p * 2 | p-dsl-p6-7-p * 4 | p-lin-12-act-p6-p, 1)
+c41 : (  p-lin-12-p6-p * 2| p-dsl-p6-p * 2 , p-lin-12-p6-p * 1 , 1)
+c42 : (  p-lin-12-p6-p * 3| p-dsl-p5-6-p * 5,  p-lin-12-p6-p * 2 | p-dsl-p5-6-p * 4 | p-lin-12-act-p6-p, 1)
+c43 : (  p-dsl-p6-p ,  p-dsl-p6-7-p , 1)
+c44 : (  p-dsl-p6-p ,  p-dsl-p5-6-p , 1)
+
+
+term
+x1 |x2 |x3 |x4 |x5 | x6 |x7 |x8 |x9 |x10 |x11 |x12 |x13 |x14 |x15 | x16 | x17  |
+g-sem-5--wt---p6-p | g-let-60--wt---p6-p  | g-let-23--wt---p6-p | g-mpk-1--wt---p6-p |
+g-lst--wt---p6-p | g-dpy-23--wt---p6-p | dsl--wt---p6-p  | g-vav-1--wt---p6-p | g-mir-61--miRNA---p6-p |
+g-lin-12--wt---p6-p | g-lin-12--d---p6-p | g-mir-61-p6-p |
+p-mpk-1-p6-p * 5 | p-sem-5-p6-p * 5 |  p-let-60-p6-p * 5 | p-lst-p6-p * 5 | p-dpy-23-p6-p  * 3 |   p-vav-1-p6-p * 5 |   p-let-23-act-p6-p * 50 |
+p-lin-12-p6-p * 5 | p-mpk-1-p6-p * 5 | p-lst-p6-p * 5  |
+p-lin-3-p6-p * 50

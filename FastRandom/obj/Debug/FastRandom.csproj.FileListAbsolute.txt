@@ -1,0 +1,20 @@
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\bin\Debug\FastRandom.dll
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\bin\Debug\FastRandom.pdb
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\obj\Debug\ResolveAssemblyReference.cache
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\obj\Debug\FastRandom.dll
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\obj\Debug\FastRandom.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\bin\Debug\FastRandom.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\bin\Debug\FastRandom.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\obj\Debug\FastRandom.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\FastRandom\obj\Debug\FastRandom.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\FastRandom\bin\Debug\FastRandom.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\FastRandom\bin\Debug\FastRandom.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\FastRandom\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\FastRandom\obj\Debug\FastRandom.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\FastRandom\obj\Debug\FastRandom.pdb
+C:\SRC\SCLSm-v1.1-SRC\FastRandom\bin\Debug\FastRandom.dll
+C:\SRC\SCLSm-v1.1-SRC\FastRandom\bin\Debug\FastRandom.pdb
+C:\SRC\SCLSm-v1.1-SRC\FastRandom\obj\Debug\ResolveAssemblyReference.cache
+C:\SRC\SCLSm-v1.1-SRC\FastRandom\obj\Debug\FastRandom.dll
+C:\SRC\SCLSm-v1.1-SRC\FastRandom\obj\Debug\FastRandom.pdb

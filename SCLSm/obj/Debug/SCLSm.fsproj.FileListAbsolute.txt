@@ -1,0 +1,43 @@
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLSm.exe
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLSm.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS_Parser.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\fsmathtools.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\CodeExpressionEvaluator.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\FastRandom.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\System.Threading.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS_Parser.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\fsmathtools.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\bin\Debug\CodeExpressionEvaluator.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\obj\Debug\SCLSm.exe
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SCLSm\obj\Debug\SCLSm.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLSm.exe
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLSm.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS_Parser.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\fsmathtools.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\CodeExpressionEvaluator.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\FastRandom.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\System.Threading.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS_Parser.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\fsmathtools.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\SCLS.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\bin\Debug\CodeExpressionEvaluator.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\obj\Debug\SCLSm.exe
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SCLSm\obj\Debug\SCLSm.pdb
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\obj\Debug\ResolveAssemblyReference.cache
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SCLSm.exe
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SCLSm.pdb
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SCLS.dll
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SCLS_Parser.dll
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SymbolTable.dll
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\CodeExpressionEvaluator.dll
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SCLS.pdb
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SCLS_Parser.pdb
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\SymbolTable.pdb
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\bin\Debug\CodeExpressionEvaluator.pdb
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\obj\Debug\SCLSm.exe
+C:\SRC\SCLSm-v1.1-SRC\SCLSm\obj\Debug\SCLSm.pdb

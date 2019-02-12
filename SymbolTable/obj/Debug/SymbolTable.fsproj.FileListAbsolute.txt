@@ -1,0 +1,5 @@
+C:\SRC\SCLSm-v1.1-SRC\SymbolTable\bin\Debug\SymbolTable.dll
+C:\SRC\SCLSm-v1.1-SRC\SymbolTable\bin\Debug\SymbolTable.pdb
+C:\SRC\SCLSm-v1.1-SRC\SymbolTable\obj\Debug\ResolveAssemblyReference.cache
+C:\SRC\SCLSm-v1.1-SRC\SymbolTable\obj\Debug\SymbolTable.dll
+C:\SRC\SCLSm-v1.1-SRC\SymbolTable\obj\Debug\SymbolTable.pdb

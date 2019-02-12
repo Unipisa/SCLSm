@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{94D665CA-D915-4DE1-AA53-913450A1AE2D}") = "fsmathtools", "fsmathtools\fsmathtools.fsharpp", "{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}"
+EndProject
+Project("{94D665CA-D915-4DE1-AA53-913450A1AE2D}") = "RegressionTests", "RegressionTests\RegressionTests.fsharpp", "{FF74A324-98C1-45D6-B7CA-0EA5CB137E88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F} = {02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}
+	EndProjectSection
+EndProject
+Project("{94D665CA-D915-4DE1-AA53-913450A1AE2D}") = "Benchmark", "Benchmark\Benchmark.fsharpp", "{61926853-CD2B-4894-8092-E541DB238B90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F} = {02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs03.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = fsmathtools\\fsmathtools.fsharpp
+		SccProjectName1 = fsmathtools
+		SccLocalPath1 = fsmathtools
+		SccProjectUniqueName2 = RegressionTests\\RegressionTests.fsharpp
+		SccProjectName2 = RegressionTests
+		SccLocalPath2 = RegressionTests
+		SccProjectUniqueName3 = Benchmark\\Benchmark.fsharpp
+		SccProjectName3 = Benchmark
+		SccLocalPath3 = Benchmark
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}.Debug|Win32.Build.0 = Debug|Win32
+		{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}.Release|Win32.ActiveCfg = Release|Win32
+		{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}.Release|Win32.Build.0 = Release|Win32
+		{FF74A324-98C1-45D6-B7CA-0EA5CB137E88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF74A324-98C1-45D6-B7CA-0EA5CB137E88}.Debug|Win32.Build.0 = Debug|Win32
+		{FF74A324-98C1-45D6-B7CA-0EA5CB137E88}.Release|Win32.ActiveCfg = Release|Win32
+		{FF74A324-98C1-45D6-B7CA-0EA5CB137E88}.Release|Win32.Build.0 = Release|Win32
+		{61926853-CD2B-4894-8092-E541DB238B90}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61926853-CD2B-4894-8092-E541DB238B90}.Debug|Win32.Build.0 = Debug|Win32
+		{61926853-CD2B-4894-8092-E541DB238B90}.Release|Win32.ActiveCfg = Release|Win32
+		{61926853-CD2B-4894-8092-E541DB238B90}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

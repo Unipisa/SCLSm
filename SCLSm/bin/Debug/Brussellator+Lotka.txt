@@ -1,0 +1,20 @@
+//
+//  Brussellator Simulation
+
+rules
+R1b : ( X , X | Y1 , #5000#)
+R2b : ( Y1 , Y2 , #50.0#)
+R3b : ( Y1*2 | Y2 , Y1 * 3, #0.000050# )
+R4b : ( Y1 , , #5.0#)
+
+R1l : ( Y1l , Y1l*2 , #10# )
+R2l : ( Y1l| Y2l , Y2l*2 , #0.01# )
+R3l : ( Y2l , , #10.0# )
+
+
+
+
+term
+loop(m)[X | Y1 * 1000 | Y2 * 2000]
+|
+loop(m)[Y1l * 1000 | Y2l * 1000]

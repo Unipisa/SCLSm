@@ -1,0 +1,7 @@
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\FastRandom\bin\Release\FastRandom.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\FastRandom\bin\Release\FastRandom.pdb
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\FastRandom\bin\Release\FSharp.Core.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\FastRandom\obj\Release\FastRandom.csproj.CoreCompileInputs.cache
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\FastRandom\obj\Release\FastRandom.csproj.CopyComplete
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\FastRandom\obj\Release\FastRandom.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\FastRandom\obj\Release\FastRandom.pdb

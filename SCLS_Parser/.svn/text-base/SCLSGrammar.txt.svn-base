@@ -1,0 +1,79 @@
+CHARACTERS
+	DIGIT =		"0123456789".
+	LETTER =	"ABCDEFGHILMNOPQRSTUVZWXYKJabcdefgihlmnopqrstuvzwyxkj".
+	SYMB =		"+-/£!%&=?+é§°ç_".
+
+TOKENS
+	Id = LETTER [{LETTER | DIGIT | SYMB}].
+	Number = DIGIT [{DIGIT}] ['.' DIGIT [{DIGIT}] ].
+
+		
+	VART =		"$t:".	//	term variable dichiaration
+	VARS =		"$s:".	//	sequence variable dichiaration
+	VARE =		"$e:".	//	element variable dichiaration
+	
+	RULESDIC =	"rules" .
+	TERMDIC	=	"term" .
+	PATTERNDIC = "patterns" .
+	EXCLUDEDIC = "exclude" .
+	CODEDELIMITER = "#" .
+
+COMMENTS FROM "/*" TO "*/" NESTED
+COMMENTS FROM "//" TO '\n'
+IGNORE '\n' + '\r' + '\t'
+
+PRODUCTIONS
+
+SCLS	=
+			RULESDIC rules
+			TERMDIC terms
+			[PATTERNDIC [patterns]	]	
+			[EXCLUDEDIC [ [Identifier] { Identifier } | "ALL" ["-" Identifier { Identifier } ] ] ]
+		.
+rules	=								
+			rule	[ rules ]
+		.
+rule	=								
+			Identifier
+			':' '('	terms	','		[terms]	','		rateFormula	')'
+		.
+
+terms
+		=									
+			term	['*' Number] [	'|' terms	]
+		.
+term
+		=
+			sequences
+		|	VART Identifier			
+		|	["loop"] '(' [sequences]  ')'[ enclosedTerm ]	 
+		.
+enclosedTerm
+		=	'[' terms ']' 
+	    .
+sequences
+		=
+		sequence	['.' sequences ] 
+		.
+sequence
+		=		
+					Identifier	
+		|	VARE	Identifier				
+		|	VARS	Identifier		
+		.
+patterns
+		=
+		pattern	[ patterns ]
+		.
+pattern
+		=
+		Identifier	':' '(' terms [',' rateFormula]	')' 
+		.
+rateFormula
+		=	
+			CODEDELIMITER ANY	{	ANY		}  CODEDELIMITER 
+		|	ANY	
+		.
+Identifier
+		=	[Number	]	Id
+		.

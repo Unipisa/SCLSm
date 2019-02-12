@@ -1,0 +1,295 @@
+using SCLS;
+using System.Collections;
+using System.Collections.Generic;
+using System.Text;
+
+
+
+
+COMPILER SCLS
+public static Model model;
+
+CHARACTERS
+	DIGIT =		"0123456789".
+	LETTER =	"ABCDEFGHILMNOPQRSTUVZWXYKJabcdefgihlmnopqrstuvzwyxkj".
+	SYMB =		"+-/£!%&=?+é§°ç_".
+
+TOKENS
+	Id = LETTER [{LETTER | DIGIT | SYMB}].
+	Number = DIGIT [{DIGIT}] ['.' DIGIT [{DIGIT}] ].
+
+		
+	VART =		"$t:".	//	term variable dichiaration
+	VARS =		"$s:".	//	sequence variable dichiaration
+	VARE =		"$e:".	//	element variable dichiaration
+	
+	RULESDIC =	"rules" .
+	TERMDIC	=	"term" .
+	PATTERNDIC = "patterns" .
+	EXCLUDEDIC = "exclude" .
+	CODEDELIMITER = "#" .
+	
+	LOOP = "loop" .
+
+COMMENTS FROM "/*" TO "*/" NESTED
+COMMENTS FROM "//" TO '\n'
+
+IGNORE '\n' + '\r' + '\t'
+
+PRODUCTIONS
+
+SCLS									
+			
+			(.	List<Rule> rulesList = new List<Rule>();
+				Compartment initialTerm = new Compartment(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.None);
+		SymbolTable symbols = new SymbolTable();
+				List<Pattern> patternsList = new List<Pattern>();
+				List<int> vars = new List<int>();	
+				StringBuilder TEMP = new StringBuilder(); 
+				List<string> exclude_list = new List<string>();			
+			.)
+										=
+			
+			RULESDIC rules<rulesList, symbols, vars>	
+			
+			TERMDIC terms<initialTerm, symbols, vars>	
+			
+			[PATTERNDIC [patterns<.patternsList, symbols, vars  .>]]	
+			
+			[EXCLUDEDIC 
+						
+						[	
+							
+								Identifier<. TEMP.> (. exclude_list.Add(TEMP.ToString()); TEMP = new StringBuilder(); .)
+								{
+									Identifier<. TEMP.> (. exclude_list.Add(TEMP.ToString()); TEMP = new StringBuilder(); .)
+								}
+							|
+								"ALL" 
+								(.
+								foreach (KeyValuePair<string,int> keyVal in symbols.inverse_table) {	exclude_list.Add(keyVal.Key); } 
+								 .)
+								 
+								 [
+								 "-"
+								 Identifier<. TEMP.> (. exclude_list.Remove(TEMP.ToString()); TEMP = new StringBuilder(); .)
+								{
+									Identifier<. TEMP.> (. exclude_list.Remove(TEMP.ToString()); TEMP = new StringBuilder(); .)
+								}
+								 ]
+						]
+				]
+			
+			(.	
+				foreach (Rule r in rulesList) { r.init(symbols);    }
+				model = new Model(rulesList.ToArray(), patternsList.ToArray(), initialTerm, symbols,Microsoft.FSharp.Collections.SetModule.OfSeq<int>(vars), Microsoft.FSharp.Collections.SetModule.OfSeq<string>(exclude_list));	
+			.)
+		.
+
+rules<.	List<Rule> rulesList, SymbolTable symbols, List<int> vars  .>		
+			
+			(.		.)
+			
+										=
+										
+			rule< rulesList, symbols,vars >			
+			
+			(.		.)	
+					
+			[ rules< rulesList, symbols,vars > ]
+		.
+
+rule<.	List<Rule> rulesList, SymbolTable symbols,List<int> vars  .>
+				
+			(.	Compartment left = new Compartment(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.None);
+				Compartment right = new Compartment(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.None);	
+				StringBuilder TEMP = new StringBuilder();							.)	
+										=
+											
+			Identifier<TEMP>					
+			
+			(.	string name = TEMP.ToString();	.)
+			
+			':' '('
+			
+				terms< left, symbols,vars >	','			
+				
+				(.	.)
+				
+				[terms<right , symbols,vars >]','			
+				
+				(.TEMP = new StringBuilder();	.)
+				rateFormula<TEMP>			
+								
+				')' (. rulesList.Add(new Rule(name,left, right, TEMP.ToString(), symbols));.)
+		.
+
+terms<. Compartment upperTerm, SymbolTable symbols,List<int> vars  .>	
+			
+			(.	Compartment currentTerm = new Compartment(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.None); .)
+			
+										=
+										
+			term<currentTerm, symbols,vars>	
+				
+			['*' Number]				
+				
+				(.	long temp;
+					long.TryParse(t.val, out temp);
+					if(temp == 0) temp++;
+					upperTerm.AddChild(new Tuple<Node,long,bool>(currentTerm, temp, true));
+		
+				.)
+				
+			[	'|' terms<upperTerm, symbols,vars >	]
+		.
+term<. Compartment term, SymbolTable symbols,List<int> vars  .>	
+
+										=
+																		
+			(.	Sequence seq = new Sequence(Microsoft.FSharp.Core.FSharpOption<List<Element>>.None, Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.Some(Microsoft.FSharp.Core.FSharpOption<Node>.Some(term)));
+			.)
+			
+			sequences<seq, symbols,vars >				
+			
+			(.  term.AddChild( new Tuple<Node,long,bool>(seq, 1,true) );		.)
+			
+		|		
+			
+			(.StringBuilder TEMP = new StringBuilder(); .)					
+			VART Identifier<TEMP>			
+			
+			(.	int el = symbols.add(TEMP.ToString());
+				term.AddChild(new Tuple<Node, long, bool>(new TermVariable(el, Microsoft.FSharp.Core.FSharpOption<Node>.Some(term)), 1, true));
+				vars.Add(el);
+			 .)
+			
+		|								
+			(.	LoopingSequence seq = new LoopingSequence(Microsoft.FSharp.Core.FSharpOption<List<Element>>.None, Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.Some(Microsoft.FSharp.Core.FSharpOption<Node>.None));
+				Compartment content = new Compartment(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.Some(Microsoft.FSharp.Core.FSharpOption<Node>.None));
+			
+			.)
+			
+			[LOOP] '(' [sequences<seq, symbols,vars>]  ')'
+			 
+			[ enclosedTerm<content, symbols,vars> ]	
+			
+			(. 
+				Loop l = new Loop(seq, content, Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.Some(Microsoft.FSharp.Core.FSharpOption<Node>.Some(term)));
+			    term.AddChild(new Tuple<Node,long,bool>(l, 1, true));  .) 
+		.
+
+
+enclosedTerm<. Compartment term, SymbolTable symbols,List<int> vars 	.> 
+										
+											=
+											
+			'[' terms<term, symbols,vars> ']' (.  .)
+	    .
+		
+sequences<. Sequence seq, SymbolTable symbols,List<int> vars  .> 
+											=
+			
+			(. int elem; int type; /*int link;*/ .) 
+			
+			sequence<out elem, out type/*, out link*/, symbols,vars >			
+			
+			(.
+			
+			switch (type)
+        {
+            case 0: seq.AddChild(new ConstantElement(elem/*, link*/));
+		    		break;
+		    case 1: seq.AddChild(new ElementVariable(elem/*, link*/));
+					vars.Add(elem);
+		            break;
+		    case 2: seq.AddChild(new SequenceVariable(elem));
+					vars.Add(elem);
+		            break;
+
+        }
+			.)
+			
+			['.' sequences<seq, symbols,vars>] 
+		.
+
+
+sequence<. out int elem, out int type/*, out int link*/, SymbolTable symbols,List<int> vars  .>						
+		
+		(. elem = 0; type = 0;/* link = -1*/ ; StringBuilder TEMP = new StringBuilder(); .)
+						
+						=		
+		(..)
+		
+					Identifier<TEMP>		(. elem = symbols.add(TEMP.ToString()); .)           //[ LinkLabel (. int.TryParse(t.val, out link);.)]  
+		|
+			VARE	Identifier<TEMP>		(. elem = symbols.add(TEMP.ToString()); type = 1;.) //[ LinkLabel (.int.TryParse(t.val, out link); .)]  
+		|
+			VARS	Identifier<TEMP>		(. elem = symbols.add(TEMP.ToString()); type = 2;.)
+
+		.
+		
+//LinkLabel = '<' Number '>'
+//        .
+
+patterns<.	List<Pattern> patternsList, SymbolTable symbols, List<int> vars  .>		
+			
+			(.		.)
+			
+										=
+										
+			pattern< patternsList, symbols,vars >			
+			
+			(.		.)	
+					
+			[ patterns< patternsList, symbols,vars > ]
+		.
+
+pattern<.	List<Pattern> patternsList, SymbolTable symbols,List<int> vars  .>
+				
+			(.	Compartment p = new Compartment(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Core.FSharpOption<Node>>.None);
+				StringBuilder TEMP = new StringBuilder();							
+																					.)	
+										=
+											
+			Identifier<TEMP>					
+			
+			(.	string name = TEMP.ToString();	.)
+			
+			':' '('
+			
+				terms< p, symbols,vars >
+				
+				
+				(.TEMP = new StringBuilder();	.)
+				
+				[',' rateFormula<TEMP>]	
+								
+				')' (. patternsList.Add(new Pattern(p,name, TEMP.ToString() )); .)
+		.
+
+
+rateFormula< StringBuilder TEMP>
+			 =	
+				
+			
+				CODEDELIMITER 
+				ANY			(. TEMP.Append("#" + t.val); .)
+				{
+					ANY		(. TEMP.Append(t.val); .)
+				}	  
+				CODEDELIMITER 
+			|
+				ANY			(. TEMP.Append(t.val); .)
+					
+			
+		.
+		
+Identifier< StringBuilder TEMP>
+								=	[
+										Number	(. TEMP.Append(t.val); .)
+									]
+									Id			(. TEMP.Append(t.val); .)
+		.
+
+END SCLS.

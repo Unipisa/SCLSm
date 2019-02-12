@@ -1,0 +1,9 @@
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\bin\Release\SplashScreen.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\bin\Release\SplashScreen.pdb
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\bin\Release\FSharp.Core.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\obj\Release\SplashScreen.Properties.Resources.resources
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\obj\Release\SplashScreen.csproj.GenerateResource.cache
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\obj\Release\SplashScreen.csproj.CoreCompileInputs.cache
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\obj\Release\SplashScreen.csproj.CopyComplete
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\obj\Release\SplashScreen.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SplashScreen\obj\Release\SplashScreen.pdb

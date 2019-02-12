@@ -1,0 +1,36 @@
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.dll
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.pdb
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\CodeExpressionEvaluator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.dll
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.pdb
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\scls.dll
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\scls.pdb
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.dll
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.pdb
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\scls.dll
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\CodeExpressionEvaluator\bin\Debug\scls.pdb
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\CodeExpressionEvaluator\obj\Debug\ResolveAssemblyReference.cache
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.dll
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.pdb
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.dll
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.pdb
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\ResolveAssemblyReference.cache
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.dll
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.pdb
+C:\SRC\SCLSm-v1.1-SRC\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.dll
+C:\SRC\SCLSm-v1.1-SRC\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.pdb
+C:\SRC\SCLSm-v1.1-SRC\CodeExpressionEvaluator\bin\Debug\SymbolTable.dll
+C:\SRC\SCLSm-v1.1-SRC\CodeExpressionEvaluator\bin\Debug\SymbolTable.pdb
+C:\SRC\SCLSm-v1.1-SRC\CodeExpressionEvaluator\obj\Debug\ResolveAssemblyReference.cache
+C:\SRC\SCLSm-v1.1-SRC\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.dll
+C:\SRC\SCLSm-v1.1-SRC\CodeExpressionEvaluator\obj\Debug\CodeExpressionEvaluator.pdb

@@ -1,0 +1,16 @@
+
+//  Sorbitol Dehydrogenase Simulation
+
+
+
+rules
+R1: ( E | NADH,ENADH, 0.0000062 )
+R2: ( ENADH, E| NADH, 33.0 )
+R3: ( ENADH| F, ENAD| S,0.000000002 )
+R4: ( ENAD| S, ENADH| F, 0.000000008 )
+R5: ( ENAD, E| NAD, 227.0 )
+R6: ( E| NAD, ENAD, 0.0000006 )
+R7: (E, ,  0.0019 )
+
+term
+E*210 | F*400000000000 | NADH*160000000

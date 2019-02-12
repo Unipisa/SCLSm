@@ -1,0 +1,16 @@
+//
+//  B3 way oscillator
+
+///from (modified)
+///Analysing Biochemical Oscillation through Probabilistic Model Checking
+///Paolo Ballarinia, Radu Mardarea and Ivan Mura
+
+
+rules
+R1 : ( A | B, B | B , 1)
+R2 : ( B | C, C | C , 1)
+R3 : ( C | A, A | A , 1)
+
+term
+A * 10 | B * 10 | C * 10
+

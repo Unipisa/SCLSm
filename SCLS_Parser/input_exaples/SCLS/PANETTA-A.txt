@@ -1,0 +1,29 @@
+rules
+R1A: ( T , T | Ef , 0.00005 )
+R1Ba: ( Ef , M , 0.03 )
+R1Bb: ( EbIL , IL , 0.03 )
+R1Bc: ( EbT , T , 0.03 )
+R1Ca: ( Ef | IL , EbIL , 0.000001 )
+R1Cb: ( EbIL , Ef | IL , 19.8755 )
+R1Cc: ( EbIL , Ef*2 | IL,  0.1245 )
+R2Aa: ( T , T*2 , 0.18)
+R2Ab: ( T*2 , T , 0.00000000018 )
+R2Ba: ( Ef | T , EbT , 0.0001 )
+R2Bb: ( EbT , Ef | T , 9 )
+R2Bc: ( EbT , Ef,  1 )
+R3Aa: ( Ef | T , EbT , 0.01 )
+R3Ab: ( EbT , Ef | T , 5 )
+R3Ac: ( EbT , Ef | T | IL,  5 )
+R3Ba: ( IL , M , 10 )
+R3Bb: ( EbIL , Ef , 10 )
+
+term
+Ef*1000000000 
+| T*1000000000 
+| IL*1000000000
+| X*1
+| EbIL*0
+| EbT*0
+
+
+//time 200

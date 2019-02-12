@@ -1,0 +1,116 @@
+"General"
+{
+"SccProjectName" = "$/fsmathtools/FSharp.MathTools/fsmathtools"
+"SccLocalPath" = "."
+"SccAuxPath" = "https://tfs03.codeplex.com"
+"SccProvider" = "{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}"
+"ProjectIdGuid" = "{02FDE031-ADCB-4B6C-9F3F-2EC79C14659F}"
+}
+"Configurations"
+{
+    "Debug|Win32"
+    {
+    "ProjectType" = "DLL"
+    "OptLevel" = "Off"
+    "StrongNamingLevel" = "None"
+    "OutputPath" = ".."
+    "SearchPath" = ""
+    "StrongNameFile" = ""
+    "OutputBase" = ""
+    "CustomCommandLine" = ""
+    "CustomCompiler" = ""
+    "DebugCheck" = "TRUE"
+    "CustomCompilationCheck" = "FALSE"
+    "DebugStartMode" = "0"
+    "StartApp" = ""
+    "StartAppPath" = ""
+    "CustomStartupArguments" = ""
+    }
+    "Release|Win32"
+    {
+    "ProjectType" = "DLL"
+    "OptLevel" = "3"
+    "StrongNamingLevel" = "None"
+    "OutputPath" = ".."
+    "SearchPath" = ""
+    "StrongNameFile" = ""
+    "OutputBase" = ""
+    "CustomCommandLine" = ""
+    "CustomCompiler" = ""
+    "DebugCheck" = "FALSE"
+    "CustomCompilationCheck" = "FALSE"
+    "DebugStartMode" = "0"
+    "StartApp" = ""
+    "StartAppPath" = ""
+    "CustomStartupArguments" = ""
+    }
+}
+"Files"
+{
+    "core.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "core.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "optim.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "optim.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "stat.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "stat.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "io.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "io.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "todo.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "notation.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "notation.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "compat.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "compat.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "transforms.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "transforms.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

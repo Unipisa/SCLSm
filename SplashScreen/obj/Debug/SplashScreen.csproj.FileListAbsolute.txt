@@ -1,0 +1,43 @@
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Documents and Settings\g.scatena\Desktop\SCLSm-v1.0\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.pdb
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\SplashScreen\bin\Debug\SplashScreen.dll
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\SplashScreen\bin\Debug\SplashScreen.pdb
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.dll
+D:\src\c#\SCLSm-v1.1-working-back\SCLSm-v1.0\src\SplashScreen\obj\Debug\SplashScreen.pdb
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\bin\Debug\SplashScreen.dll
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\bin\Debug\SplashScreen.pdb
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.dll
+D:\src\c#\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\bin\Debug\SplashScreen.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\bin\Debug\SplashScreen.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SplashScreen\bin\Debug\SplashScreen.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SplashScreen\bin\Debug\SplashScreen.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\bin\Debug\SplashScreen.dll
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\obj\Debug\SplashScreen.Properties.Resources.resources
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\obj\Debug\SplashScreen.dll
+C:\SRC\SCLSm-v1.1-SRC\SplashScreen\obj\Debug\SplashScreen.pdb

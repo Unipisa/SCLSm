@@ -1,0 +1,35 @@
+rules
+R1:		( lacI.$s:x					, lacI.$s:x | Irna				, #0.02#		)
+R2:		( Irna						, Irna | repr					,# 0.1	#	)
+R3:		( polym | $s:x.lacP.$s:y	, $s:x.PP.$s:y					,# 0.1#		)
+R4:		( $s:x.PP.$s:y				, polym|$s:x.lacP.$s:y			,# 0.01	#	)
+R5:		( $s:x.PP.lacO.$s:y			, polym|Rna|$s:x.lacP.lacO.$s:y ,# 20#		)
+R6:		( Rna						, Rna|betagal|perm|transac		, #0.1	#	)
+R7:		( repr|$s:x.lacO.$s:y		, $s:x.RO.$s:y					,# 1	#		)
+R8:		( $s:x.RO.$s:y				, repr|$s:x.lacO.$s:y			,# 0.01	#	)
+R9:		( repr|LACT					, RLACT							, #0.005	#	)
+R10:	( RLACT						, repr|LACT					, #0.1#		)
+R11:	( loop($s:x)[perm|$t:X]		, loop(perm.$s:x)[$t:X]			, #	0.1 * (occ(perm,X)+1)	#)
+R12:	( LACT|loop(perm.$s:x)[$t:X], loop(perm.$s:x)[$t:X|LACT]	, # 0.0001 * (occ(perm,x)+1)	#)
+R13:	( betagal|LACT				, betagal|GLU|GAL				, #0.00001#		)
+R14:	( perm						,								, #0.001		#)
+R15:	( Irna						,								, #0.001		#)
+R16:	( transac					,								, #0.001		#)
+R17:	( repr						,								, #0.002		#)
+R18:	( betagal					,								, #0.01		#)
+R19:	( Rna						,								, #0.01		#)
+R20:	( RLACT						, LACT							, #0.002	#	)
+R21:	( loop(perm.$s:x)[$t:X]		, loop($s:x)[$t:X]				, #	0.001 * (occ(perm,x)+1)	#)
+//LACToutside: (loop($s:x)[$t:X]|LACT, loop($s:x)[$t:X]|LACT,#0#) 
+term
+loop(m)[lacI.lacP.lacO.lacZ.lacY.lacA|polym*30 | repr*100] 
+
+| LACT * 50
+
+patterns
+LACTinside: (loop($s:x)[$t:X | LACT], # occ(LACT, X) + 1 # )
+LACToutside: (loop($s:x)[$t:X]|LACT) 
+
+exclude
+ALL - LACT GLU RLACT perm betagal 
+//LACT

@@ -1,0 +1,2 @@
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\CodeExpressionEvaluator\obj\Release\CodeExpressionEvaluator.csprojAssemblyReference.cache
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\CodeExpressionEvaluator\obj\Release\CodeExpressionEvaluator.csproj.CoreCompileInputs.cache

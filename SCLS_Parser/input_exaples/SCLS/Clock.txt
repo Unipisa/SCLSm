@@ -1,0 +1,22 @@
+rules
+R1: (geneA , geneA | rnaA , 4.0)
+R2: (rnaA , rnaA | A , 1.0)
+R3: (rnaA , eps , 1.0)
+R4: (A , eps , 0.1)
+R5: ( geneR , geneR | rnaR , 0.001)
+R6: (rnaR , rnaR | R , 0.1)
+R7: (rnaR , eps , 0.02)
+R8: (R , eps , 0.01)
+R9: (A | R , AR , 100.0)
+R10: (AR , R , 0.1)
+R11: (AR , A , 0.1)
+R12: (geneA | A , pA , 10.0)
+R13: (pA , geneA | A , 10.0)
+R14: (pA , rnaA | pA , 40.0)
+R15: (geneR | A , pR , 10.0)
+R16: (pR , geneR | A , 100.0)
+R17: (pR , rnaR | pR , 2.0)
+term
+geneA | geneR
+exclude
+eps

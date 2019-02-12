@@ -1,0 +1,25 @@
+rules
+R1:		( lasO.lasR.lasI			, lasO.lasR.lasI|lasR+			, 20	)
+R2:		( lasO.lasR.lasI			, lasO.lasR.lasI|lasI+			, 5		)
+R3:		( lasI+						, lasI+ | 3oxo					, 8		)
+R4:		( lasR+ | 3oxo				, 3R							, 0.25	)
+R5:		( 3R						, lasR+ | 3oxo					, 400	)
+R6:		( 3R|lasO.lasR.lasI			, 3RO.lasR.lasI					, 0.25	)
+R7:		( 3RO.lasR.lasI				, R|lasO.lasR.lasI				, 10	)
+R8:		( 3RO.lasR.lasI				, 3RO.lasR.lasI|lasR+			, 1200	)
+R9:		( 3RO.lasR.lasI				, 3RO.lasR.lasI|lasI+			, 300	)
+R10:	( loop(m)[3oxo|$t:X]		, 3oxo | loop(m)[$t:X]			, # 30 * (occ(3oxo,X)) # 	)
+R11:	( 3oxo | loop(m)[$t:X]		, loop(m)[3oxo|$t:X]			, 1		)
+R14:	( lasI+						,								, 1		)
+R15:	( lasR+						,								, 1		)
+R16:	( 3oxo						,								, 1		)
+//R17:	( signal,signal,0)
+term
+loop(m)[lasO.lasR.lasI|signal]
+|loop(m)[lasO.lasR.lasI]*999
+
+patterns
+autoinducer_inside : (loop(m)[3oxo|$t:X|signal], # (occ(3oxo,X)) # )
+
+exclude
+ALL - 3oxo

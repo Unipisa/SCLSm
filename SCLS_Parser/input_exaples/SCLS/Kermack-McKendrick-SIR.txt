@@ -1,0 +1,8 @@
+//Kermack-McKendrick SIR Model
+rules
+R1:		( S | I	, I*2			, 0.001	)
+R2:		( I			, R			, 0.1		)
+
+term
+S*500 | I
+

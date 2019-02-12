@@ -1,0 +1,39 @@
+TODO List
+---------
+
+module FSharp.MathTools.Core
+	- Regression test the FactorialLn function.
+	- Regression test the Binomial function.
+
+module FSharp.MathTools.Optimization
+	- Remove all local norm definitions when the F# libraray is fixed.
+	- WolfeLineSearch: handle the case when the function value is not defined at some point.
+	- Add Newton method.
+	- Add BFGS method.
+	- Add LBFGS method.
+
+module FSharp.MathTools.Stat
+	- Check the zigurath algorithm for computing normal distributed random variables.
+	- Implement the Gamma CDF.
+	- Implement the Beta CDF.
+	- Implement the Dirichlet CDF.
+	- Add covariance and support calculation for Multinomial.
+
+module FSharp.MathTools.IO
+	- Add HDF5 file format
+	- Add a zipped file format
+	- Add custom serialization and parsing read/writers
+        //val ReadMatrix : fileName:string -> parser:(string -> 'a) -> Matrix<'a>
+        //val WriteMatrix : fileName:string -> serializer:('a -> string) -> Matrix<'a>
+        //val ReadVector : fileName:string -> parser:(string -> 'a) -> Vector<'a>
+        //val WriteVector : fileName:string -> serializer:('a -> string) -> Vector<'a>
+
+module FSharp.MathTools.Compatibility.Matlab
+	- Can we make the third parameter for linspace optional?
+
+module FSharp.MathTools.Transforms.Fourier
+	- We should get rid of the hard coded sizes of double elements (maybe detect which version of FFTW is installed).
+
+
+Regression Tests:
+	- Remove local norm definitions when the F# libraray is fixed.

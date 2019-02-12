@@ -1,0 +1,135 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F8E5FCC1-8CA5-4508-8DB6-448CBF3605BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SCLS_Parser</RootNamespace>
+    <AssemblyName>SCLS_Parser</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="CodeExpressionEvaluator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CodeExpressionEvaluator\bin\Debug\CodeExpressionEvaluator.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Parser.cs" />
+    <Compile Include="Scanner.cs" />
+    <Compile Include="SCLS_Parser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="input_exaples\SCLS\Copy of provatest" />
+    <None Include="input_exaples\SCLS\prova" />
+    <None Include="input_exaples\SCLS\prova1" />
+    <None Include="input_exaples\SCLS\ProvaRipetizione.scls" />
+    <None Include="input_exaples\SCLS\provatest" />
+    <None Include="SCLS.atg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="input_exaples\SCLS\Brussellator.txt" />
+    <Content Include="input_exaples\SCLS\LactoseOperon.txt" />
+    <Content Include="input_exaples\SCLS\lotka2.txt" />
+    <Content Include="input_exaples\SCLS\invecchiamento.txt" />
+    <Content Include="input_exaples\SCLS\Lotka-Volterra.txt" />
+    <Content Include="input_exaples\SCLS\lotka.txt" />
+    <Content Include="input_exaples\SCLS\provaLoop.txt" />
+    <Content Include="input_exaples\SCLS\QS2.txt" />
+    <Content Include="input_exaples\SCLS\QuorumSensing.txt" />
+    <Content Include="input_exaples\SCLS\SDH.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\0.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\1.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\10.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\1var.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\2.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\3.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\4.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\5.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\6.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\7.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\8.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\9.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\9bis.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\testERR.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestErroreRimozione3.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestErroreRimozione4.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestErrorRimozione5.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestErrRimozione.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestErrRimozione2.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestFunction.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestHashUpdate.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestPowerSet.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\testQ.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestStartConce.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TestTermEvolution.txt" />
+    <Content Include="input_exaples\SCLS\TestCases\TextBindingTermVars.txt" />
+    <Content Include="input_exaples\SCLS\testPaolo.txt" />
+    <Content Include="input_exaples\SCLS\testPreprocessing.txt" />
+    <Content Include="input_exaples\SCLS\testPreprocessingTermVar.txt" />
+    <Content Include="input_exaples\SCLS\testVars.txt" />
+    <Content Include="input_exaples\SCLS\TextFile1.txt" />
+    <Content Include="SCLSGrammar.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SCLS\SCLS.fsproj">
+      <Project>{A97E3068-FC48-443C-B6D9-5B34DE2E10AF}</Project>
+      <Name>SCLS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SymbolTable\SymbolTable.fsproj">
+      <Project>{05CA28A3-3D0F-4FF8-AF72-DC9C7AA91DED}</Project>
+      <Name>SymbolTable</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="input_exaples\SCLS+\" />
+    <Folder Include="input_exaples\SLCLS\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Notes="&lt;Notes Project=&quot;f8e5fcc1-8ca5-4508-8db6-448cbf3605bc&quot; xmlns=&quot;clr-namespace:StickyNotes.Model;assembly=StickyNotes&quot;&gt;&lt;Notes.StickyNotes&gt;&lt;Note FilePath=&quot;&quot; Content=&quot;&quot; Date=&quot;2008-03-13T10:46:36.14+01:00&quot; /&gt;&lt;Note FilePath=&quot;D:\src\c#\SCLS-v1.1-working\SCLS-v1.1\src\SCLS\preprocessing.fs&quot; Content=&quot;capire come mai nella simulazione QS-2x1 ho sempre uno stack overflow esattamente al 50% della simulazione &amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;in checkIfValidAndComputerepVal&amp;#xD;&amp;#xA;o in getPossibleInstantiations&quot; Date=&quot;2008-03-13T11:16:28.99+01:00&quot; /&gt;&lt;/Notes.StickyNotes&gt;&lt;/Notes&gt;" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

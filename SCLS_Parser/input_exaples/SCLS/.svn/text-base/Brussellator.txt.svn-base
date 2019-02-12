@@ -1,0 +1,15 @@
+//
+//  Brussellator Simulation
+
+rules
+R1 : ( X, X | Y1 , 5000)
+R2 : ( Y1, Y2 , 50.0)
+R3 : ( Y1*2 | Y2, Y1 * 3, 0.000050 )
+R4 : ( Y1, , 5.0)
+
+
+
+
+term
+X | Y1 * 1000 | Y2 * 2000
+

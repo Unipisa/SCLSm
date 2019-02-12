@@ -1,0 +1,4 @@
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SymbolTable\bin\Release\SymbolTable.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SymbolTable\bin\Release\SymbolTable.pdb
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SymbolTable\obj\Release\SymbolTable.dll
+Z:\SRC\UNIPI\SCLSm-v1.1-SRC\SymbolTable\obj\Release\SymbolTable.pdb

@@ -1,0 +1,13 @@
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\fsmathtools\bin\Debug\fsmathtools.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\fsmathtools\bin\Debug\fsmathtools.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\fsmathtools\bin\Debug\FSharp.PowerPack.Math.Providers.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\fsmathtools\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\fsmathtools\obj\Debug\fsmathtools.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working\SCLSm-v1.1\src\fsmathtools\obj\Debug\fsmathtools.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\fsmathtools\bin\Debug\fsmathtools.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\fsmathtools\bin\Debug\fsmathtools.pdb
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\fsmathtools\bin\Debug\FSharp.PowerPack.Math.Providers.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\fsmathtools\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\fsmathtools\obj\Debug\fsmathtools.dll
+E:\Documents and Settings\tek\Desktop\SCLSm-v1.1-working_2\SCLSm-v1.1\src\fsmathtools\obj\Debug\fsmathtools.pdb
+C:\SRC\SCLSm-v1.1-SRC\fsmathtools\obj\Debug\ResolveAssemblyReference.cache
