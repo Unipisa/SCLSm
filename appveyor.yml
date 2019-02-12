@@ -6,4 +6,4 @@ configuration:
 before_build:
  - ps: nuget restore
 build:
- project: SCLSm.sln
+ project: ./SCLS_Simulator/SCLS_Simulator.fsproj #SCLSm.sln
