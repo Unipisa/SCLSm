@@ -5,5 +5,5 @@ configuration:
  - Debug
 before_build:
  - ps: nuget restore
- build:
- - project: SCLSm.sln
+build:
+ project: SCLSm.sln
